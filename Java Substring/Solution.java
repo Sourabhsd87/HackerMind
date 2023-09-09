@@ -10,8 +10,7 @@ public class Solution {
         int start = in.nextInt();
         int end = in.nextInt();
         
-        for(int i=start;i<end;i++){
-            System.out.print(S.charAt(i));
-        }
+        String a = S.substring(start, end);
+        System.out.println(a);
     }
 }
